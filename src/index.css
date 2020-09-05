@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tab, .activeTab{
+  outline: none;
+  width: 50%;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 8px 16px;
+  background-color: Transparent;
+  /* color: rgb(156, 138, 138); */
+  border: none;
+  margin-bottom: 15px;
+ }
+.tab :focus {
+    outline: 0;
+  }
+
+.activeTab {
+  border-bottom: 4px solid #25B6D2;
+}
+
