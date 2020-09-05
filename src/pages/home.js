@@ -1,11 +1,13 @@
+import React from 'react';
+
 function Inicio() {
-  let template = `
+  return(
   <section>
     <h1>Análise de Crédito Conta Black</h1>
-  
-  </section>`
+    
+  </section>
 
-  return template
+  )
 }
 
 

@@ -1,11 +1,13 @@
+import React from 'react';
+
 function Evolucao() {
-  let template = `
+  return(
   <section>
     <h1>Página Evoluçao</h1>
   
-  </section>`
+  </section>
 
-  return template
+  )
 }
 
 
