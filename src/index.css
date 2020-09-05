@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -27,4 +28,30 @@ code {
   border-bottom: 4px solid;
   font-weight: bold;
 }
+.container {
+  height: 70vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
 
+.graph-area {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  height: 50%;
+}
+.label {
+  text-align: left;
+}
+
+.regate{
+  display: flex;
+  flex-flow: column;
+}
+
+.btn-resgate {
+  height: 70px;
+  margin: 10px 0;
+
+}

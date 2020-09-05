@@ -4,10 +4,22 @@ import { PieChart } from 'react-minimal-pie-chart';
 function Evolucao() {
   const [active, setActive] = useState(true)
   
+  const bdMock = [
+    { title: 'Pagamento de Contas', value: 80, color: '#E38627' },
+    { title: 'Depósitos', value: 50, color: '#C13C37' },
+    { title: 'Pagamento Fatura Black', value: 120, color: '#6A2135' },
+  ];
   const defaultLabelStyle = {
-    fontSize: '15px',
+    fontSize: '10px',
     fontFamily: 'sans-serif',
   };
+  const saldo = () => {
+     let soma = 0;
+     bdMock.forEach(data => (
+      soma = soma + data.value
+     ))
+     return soma
+  }
 
   return(
   <section>
@@ -17,16 +29,12 @@ function Evolucao() {
       <button className={!active ? "activeTab" : "tab"} onClick={()=>setActive(active => false)}>Resgate</button>
     </div> 
     {active ? 
-    <div>
-      <div>
+    <div className="container"> 
+      <div className="graph-area">
       <PieChart
-        data={[
-          { title: 'One', value: 80, color: '#E38627' },
-          { title: 'Two', value: 50, color: '#C13C37' },
-          { title: 'Three', value: 120, color: '#6A2135' },
-        ]}
+        data= {bdMock}
         lengthAngle={-360} animate
-        viewBoxSize={[200, 200]}
+        style={{ height: '150px', width: '50%' }}
         lineWidth={55}
         label={({ dataEntry }) => dataEntry.value}
         labelStyle={{
@@ -35,14 +43,25 @@ function Evolucao() {
         labelPosition={70}
 
         />
-        grafico</div>
-      <button>Mais info</button>
+        <aside className="label">
+        {bdMock.map(data => (
+          <div>
+            {data.value} - {data.title}
+          </div>
+        ))}
+          
+        </aside>
+        </div>
+      <button>Mais informações sobre a análise de crédito</button>
     </div>
     :
-    <div>
-      <p>Saldo de pontos</p>
-      <button>Solicitar Crédito em Conta</button>
-      <button>Solicitar Cartão de Crédito (ou aumento de limite)</button>
+    <div className="regate">
+      <h3>Saldo de pontos</h3>
+      <h1>{saldo()}</h1>
+      <p>Seu crédito pré-aprovado é de <b>R$ 2.400,00</b></p>
+      <button className='btn-resgate'>Solicitar Crédito em Conta</button>
+      <button className='btn-resgate'>Solicitar Cartão de Crédito </button>
+      <button className='btn-resgate'> Solicitar Aumento de Limite</button>
     </div>
     }
   
