@@ -39,15 +39,24 @@ code {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 5px;
-  height: 50%;
+  height: 30%;
 }
 .label {
   text-align: left;
 }
-
+.valor{
+  display: inline-block;
+  padding-right: 5px;
+  width: 30px;
+  text-align: right;
+}
 .regate{
   display: flex;
   flex-flow: column;
+}
+.saldo{
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .btn-resgate {
