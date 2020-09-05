@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.tab, .activeTab{
+  outline: none;
+  width: 50%;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 8px 16px;
+  background-color: Transparent;
+  border: none;
+  margin-bottom: 15px;
+ }
+
+.activeTab {
+  border-bottom: 4px solid;
+  font-weight: bold;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+.graph-area {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  height: 30%;
+}
+.label {
+  text-align: left;
+}
+.valor{
+  display: inline-block;
+  padding-right: 5px;
+  width: 30px;
+  text-align: right;
+}
+.regate{
+  display: flex;
+  flex-flow: column;
+}
+.saldo{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn-resgate {
+  height: 70px;
+  margin: 10px 0;
+
 }
