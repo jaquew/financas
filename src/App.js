@@ -1,8 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Inicio from './pages/home';
-import Evolucao from './pages/evolucao';
+import Inicio from './pages/home/home';
+import Evolucao from './pages/evolucao/evolucao';
 
 function App() {
   return (
