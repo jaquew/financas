@@ -34,15 +34,15 @@ const Header = () => {
   
     return (
       <header className="main-header">
-        Conta Black
+        <p>Conta Black</p>
         <Link className="links">
  
           <Link to="/home" className="links icon"> 
-          <img height="20px" width="20px" src={img}
+          <img  src={img}
             alt="icone-home" /> 
           </Link>
           <Link to="/" className="links icon">
-          <img height="20px" width="20px" src={img2}
+          <img src={img2}
             alt="icone-sair" /> 
           </Link>
         </Link>
