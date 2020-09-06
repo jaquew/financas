@@ -1,0 +1,23 @@
+.icon{
+  width: 18px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px #e5e5e5e5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.title-icon{
+  font-size: 10px;
+  color: grey;
+}
+
+.item{
+  padding: 4px;
+}

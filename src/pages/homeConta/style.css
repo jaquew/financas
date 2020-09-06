@@ -1,0 +1,26 @@
+.background{
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url('../../img/icons/wave1.png');
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(120px,1fr));
+  padding-top: 10%;
+  height: 50vh;
+    grid-auto-rows: 80px;
+}
+
+.icon{
+  width: 24px;
+}
+
+.card{
+  width: 300px;
+  padding-top: 100px;
+}
+
+.qr-code{
+  width: 20px;
+}

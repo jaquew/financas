@@ -1,0 +1,20 @@
+.text{
+  text-align: center;
+  margin:6px 0px 0px 0px;
+  color: #313131
+}
+.wrapper{
+  padding: 8px;
+  border: solid 1px #f5f5f5;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.link{
+  /* color: black; */
+  text-decoration:none;
+}
