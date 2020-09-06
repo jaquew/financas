@@ -1,9 +1,25 @@
 import React, {useState, useEffect} from 'react';
+  import firebase from '../../utils/firebaseUtils.js'
 import { PieChart } from 'react-minimal-pie-chart';
 
 function Evolucao() {
   const [active, setActive] = useState(true)
+  // const [bdMock,setBdMock] = useState();
+
+  // useEffect(() => {
+  //   firebase.firestore.collection('contablack').get()
+  //   .then((snap) => {
+  //     const newItems = snap.docs.map((doc) => ({
+  //       id: doc.id,
+  //       ...doc.data()
+  //     }))
+  //     setBdMock(newItems)
+  //   })
+  // })
   
+  
+  // console.log(BdMock);
+
   const bdMock = [
     { title: 'Pagamento de Contas', value: 80, color: '#E38627' },
     { title: 'Depósitos', value: 350, color: '#C13C37' },
