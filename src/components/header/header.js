@@ -2,6 +2,8 @@ import React, {useEffect, useState} from "react";
 import { Link, useHistory } from "react-router-dom";
 import firebase from "../../utils/firebaseUtils.js";
 import "./styles.css";
+import img    from "../../img/icons/casa.svg"; 
+import img2   from "../../img/icons/sair.svg"; 
 
 const Header = () => {
     let history = useHistory();
@@ -35,11 +37,13 @@ const Header = () => {
         Conta Black
         <Link className="links">
  
-          <Link to="/home" className="links">
-            Home
+          <Link to="/home" className="links"> 
+          <img height="20px" width="20px" src={img}
+            alt="icone-home" /> 
           </Link>
           <Link to="/" className="links">
-            Sair
+          <img height="20px" width="20px" src={img2}
+            alt="icone-sair" /> 
           </Link>
         </Link>
       </header>

@@ -3,14 +3,26 @@
     flex-direction: row-reverse;
 }
 
-#btn-obj{
-    flex-direction: column;
+
+.objetivos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
     justify-content: center;
+    padding: 10px;    
+}
+
+.btn-obj{
+    width: 100%;
+    height: 100%;
     padding: 10px;
-    border-radius: 5px;
-    border: 0;
-    background: #c5bcc3;
-    color: #fff;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-width: 05px;
+    border-color: #000000;
+    background: #dcdcdc;
+    color: #000000;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;

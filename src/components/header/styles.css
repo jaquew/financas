@@ -1,7 +1,18 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+}
+
 .main-header{
     width: 100%;
-    height: 60px;
-    background: #000000;
+    height: 95px;
+    background-image: url(../../img/background/Conta-Black.jpg);
+    background-origin:content-box ;
     font-size: 18px;
     font-weight: bold;
     color: #fff;
@@ -9,3 +20,13 @@
     justify-content: center;
     align-items: center;
 };
+
+.links{
+    background: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    padding: 5px;
+    text-align: right;
+}

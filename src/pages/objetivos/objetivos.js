@@ -10,13 +10,13 @@ import "./styles.css";
 
 
 function Objetivos(){
-
+ 
 
 
 return(
     <section>
       <Header/>
-        <div className="Objetivos">
+        <div className="objetivos">
            <Button className="btn-obj" imageUrl={img}>
             <p>{" Pagamento de Boletos "}</p> 
            </Button>
@@ -26,13 +26,11 @@ return(
            <Button className="btn-obj" imageUrl={img3} >
             <p>{" Depósitos "}</p> 
            </Button>
-           <Button className="pbtn-obj" imageUrl={img4}>
-             <p>{"Pagamento de Faturas"}</p>
-              <p>{"Cartão Black"}</p>
+           <Button className="btn-obj" imageUrl={img4}>
+             <p>{"Pagamento de Faturas - Cartão Black"}</p>
            </Button>
            <Button className="btn-obj" imageUrl={img5} >
-             <p>{"Pagamento"}</p>
-             <p>{"Emprestimo "}</p>
+             <p>{"Pagamento - Empréstimo"}</p>
            </Button>
       </div>
     </section>
