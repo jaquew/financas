@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Button from "../../components/Button/button.js";
+import React  from "react";
+import Button from "../../components/button/button.js";
+import Header from "../../components/header/header.js";
 import "./styles.css";
 
 function Objetivos(){
