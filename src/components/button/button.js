@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Button(props) {
   return (
     <button
@@ -8,6 +9,8 @@ function Button(props) {
       disabled={props.disabled}
       id={props.id}
     >
+      <img height="50px" width="50px" src={props.imageUrl}
+       alt={props.text} />
       {props.children}
     </button>
   );
