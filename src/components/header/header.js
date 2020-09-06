@@ -37,11 +37,11 @@ const Header = () => {
         Conta Black
         <Link className="links">
  
-          <Link to="/home" className="links"> 
+          <Link to="/home" className="links icon"> 
           <img height="20px" width="20px" src={img}
             alt="icone-home" /> 
           </Link>
-          <Link to="/" className="links">
+          <Link to="/" className="links icon">
           <img height="20px" width="20px" src={img2}
             alt="icone-sair" /> 
           </Link>
