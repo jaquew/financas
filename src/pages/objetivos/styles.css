@@ -1,0 +1,18 @@
+.Page{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#btn-obj{
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #c5bcc3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+

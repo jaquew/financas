@@ -32,7 +32,6 @@ const Header = () => {
   
     return (
       <header className="main-header">
-        <img width={"50px"} alt="Logo Conta Black" />
         Conta Black
         <Link className="links">
  

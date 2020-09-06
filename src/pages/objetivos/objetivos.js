@@ -18,19 +18,21 @@ return(
       <Header/>
         <div className="Objetivos">
            <Button className="btn-obj" imageUrl={img}>
-             {" Pagamento de Boletos "}
+            <p>{" Pagamento de Boletos "}</p> 
            </Button>
            <Button className="btn-obj" imageUrl={img2} >
-             {" Transferências "}
+            <p>{" Transferências "}</p> 
            </Button>
            <Button className="btn-obj" imageUrl={img3} >
-             {" Depósitos "}
+            <p>{" Depósitos "}</p> 
            </Button>
            <Button className="pbtn-obj" imageUrl={img4}>
-             {" Pagamento de Faturas - Cartão Black "}
+             <p>{"Pagamento de Faturas"}</p>
+              <p>{"Cartão Black"}</p>
            </Button>
            <Button className="btn-obj" imageUrl={img5} >
-             {" Pagamento do Emprestimo "}
+             <p>{"Pagamento"}</p>
+             <p>{"Emprestimo "}</p>
            </Button>
       </div>
     </section>
