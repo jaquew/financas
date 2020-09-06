@@ -8,8 +8,11 @@ function Objetivos(){
 
 
 return(
-    <div className="Objetivos">
+    <section>
       <Header/>
+    
+    <div className="Objetivos">
+      
       <Button className="btn-obj" >
             {" Pagamento de Boletos "}
       </Button>
@@ -26,6 +29,7 @@ return(
             {" Pagamento do Emprestimo "}
       </Button>
     </div>
+    </section>
 );
 }
 
