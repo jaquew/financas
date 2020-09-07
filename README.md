@@ -40,10 +40,10 @@ Disponibilizar crédito de forma segura .
 
 ## 5. Interface
 
-![home](/src/img/home.png)
-![home](/src/img/objetivos.png)
-![home](/src/img/grafico.png)
-![home](/src/img/solicitacaodecredito.png)
+![home](src/img/home.png)
+![objetivos](src/img/objetivos.png)
+![evolucao](src/img/grafico.png)
+![solicitacao](src/img/solicitacaodecredito.png)
 
 ## 6. Tecnologias
 
