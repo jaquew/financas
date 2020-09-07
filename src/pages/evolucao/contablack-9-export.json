@@ -1,0 +1,60 @@
+[ {
+  "bill" : 50,
+  "creditCard" : 45,
+  "deposit" : 80,
+  "tranfer" : 100,
+  "loan" : 40,
+  "document" : 493327796,
+  "name" : "Catharina Ferreira Fernandes",
+  "score" : 138,
+  "sex" : "F",
+  "type" : "cliente",
+  "typeAccount" : "PF"
+}, {
+  "bill" : 150,
+  "creditCard" : 75,
+  "deposit" : 100,
+  "tranfer" : 100,
+  "loan" : 0,
+  "document" : 577742294,
+  "name" : "Samuel Dutra",
+  "score" : 347,
+  "sex" : "M",
+  "type" : "cliente",
+  "typeAccount" : "PF"
+}, {
+  "bill" : 20,
+  "creditCard" : 125,
+  "deposit" : 200,
+  "tranfer" : 100,
+  "loan" : 50,
+  "adress" : "Avenida Paulista, 1234",
+  "business" : "Alimentação",
+  "document" : 526847450001,
+  "name" : "Martha Alimentação Ltda. ME",
+  "score" : 756,
+  "since" : 2016,
+  "type" : "cliente",
+  "typeAccount" : "PJ"
+}, {
+  "document" : 493327796,
+  "dueDate" : "16072020",
+  "name" : "ENEL BRASIL S.A.",
+  "payDay" : "14072020",
+  "score" : 28,
+  "type" : "conta"
+}, {
+  "document" : 577742294,
+  "dueDate" : "030620",
+  "name" : "CIA. DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO",
+  "payDay" : "01062020",
+  "score" : 36,
+  "type" : "conta"
+}, {
+  "document" : 526847450001,
+  "dueDate" : "13062020",
+  "name" : "Imobiliaria Laila Imoveis LTDA",
+  "payDay" : "10062020",
+  "score" : 78,
+  "type" : "conta"
+} ]
