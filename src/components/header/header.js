@@ -34,7 +34,7 @@ const Header = () => {
   
     return (
       <header className="main-header">
-        <p>Conta Black</p>
+        <p>CONTA <span style={{color: '#6f9bac'}}>BLACK</span></p>
         <Link className="links">
  
           <Link to="/home" className="links icon"> 

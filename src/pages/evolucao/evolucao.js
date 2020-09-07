@@ -12,14 +12,13 @@ import image5 from '../../img/icons/checkbox.png';
 
 function Evolucao() {
   const [active, setActive] = useState(true)
-  // const [bdMock,setBdMock] = useState();
 
   const bdMock = [
-    { title: 'Pagamento de Contas', value: data[0].bill, color: '#E38627' },
-    { title: 'Depósitos', value: data[0].deposit, color: '#C13C37' },
-    { title: 'Pagamento Fatura Black', value: data[0].creditCard, color: '#6A2135' },
-    { title: 'Transferência', value: data[0].tranfer, color: '#A72445' },
-    { title: 'Pagamento Empréstimo', value: data[0].loan, color: '#6E6135' },
+    { title: 'Pagamento de Contas', value: data[0].bill, color: '#070707' },
+    { title: 'Depósitos', value: data[0].deposit, color: '#553555' },
+    { title: 'Pagamento Fatura Black', value: data[0].creditCard, color: '#755B69' },
+    { title: 'Transferência', value: data[0].tranfer, color: '#6f9bac' },
+    { title: 'Pagamento Empréstimo', value: data[0].loan, color: '#b4d4dd' },
   ];
   
   const defaultLabelStyle = {
@@ -48,24 +47,21 @@ function Evolucao() {
       <PieChart
         data= {bdMock}
         lengthAngle={-360} animate
-        style={{ height: '150px', width: '50%' }}
+        style={{ height: '150px', width: '30%' }}
         lineWidth={55}
 
         />
-        {/* label={({ dataEntry }) => dataEntry.value}
-        labelStyle={{
-          ...defaultLabelStyle,
-        }}
-        labelPosition={70} */}
         <aside className="label">
         {bdMock.map(data => ( 
-          <div key={data.color}>
-            <span className="valor">{data.value}</span> {data.title}
+          <div className='leg' key={data.color}>
+            <div className="leg-dot" style={{backgroundColor: data.color}}></div>
+            <div className="valor">{data.value}</div>
+            <div className="title"> {data.title}</div>
           </div>
         ))}
         </aside>
         </div>
-       <h2>Total: {saldo()}</h2>
+       <h2 className='saldo'>Total: {saldo()}</h2>
        <button className="btn-ev" onClick={() => window.location="/objetivos"}><img height="30px" width="30px" src={image5}/> Meus Objetivos</button>
        <button className="btn-ev"><img height="30px" width="30px" src={image4}/>Mais Informações</button>
 

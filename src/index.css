@@ -41,16 +41,37 @@ code {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 5px;
-  height: 30%;
+  /* height: 40%; */
+}
+.leg{
+  display: flex;
+  margin-bottom: 10px;
+  align-content: center;
+  align-items: center;
+
+
 }
 .label {
   text-align: left;
+  /* width: 50%; */
+}
+.leg-dot{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
 }
 .valor{
   display: inline-block;
   padding-right: 5px;
   width: 30px;
   text-align: right;
+}
+.title{
+  width: 70%;
+  margin-left: 10px;
+}
+.saldo{
+  margin: 0 10px;
 }
 .regate{
   display: flex;
