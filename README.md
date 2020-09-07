@@ -37,17 +37,10 @@ Disponibilizar crédito de forma segura .
 
 ## 5. Interface
 
-<<<<<<< HEAD
-![home](src/img/home.jpeg)
-![objetivos](src/img/objetivos.jpeg)
-![evolucao](src/img/grafico.jpeg)
-![solicitacao](src/img/solicitacaodecredito.jpeg)
-=======
-![home](/src/img/home.png)
-![home](/src/img/objetivos.png)
-![home](/src/img/grafico.png)
-![home](/src/img/solicitacaodecredito.png)
->>>>>>> cddec40d26b5730351c5b00676bcef01bbfbb07b
+![home](src/img/home.jpeg) = 414x736 
+![objetivos](src/img/objetivos.jpeg) = 414x736 
+![evolucao](src/img/grafico.jpeg) = 414x736 
+![solicitacao](src/img/solicitacaodecredito.jpeg) = 414x736 
 
 ## 6. Tecnologias
 
@@ -56,9 +49,4 @@ Disponibilizar crédito de forma segura .
 3. CSS3
 4. HTML5
 5. GitHub
-<<<<<<< HEAD
 6. Firebase
-=======
-6. Firebase
-
->>>>>>> cddec40d26b5730351c5b00676bcef01bbfbb07b
