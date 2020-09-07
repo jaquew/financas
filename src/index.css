@@ -53,6 +53,7 @@ code {
 .regate{
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 .saldo{
   font-size: 25px;
