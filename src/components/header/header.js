@@ -8,20 +8,20 @@ const Header = () => {
    
 
     return (
-      <header className="main-header">
+      <div className="main-header">
         <p>CONTA <span style={{color: '#6f9bac'}}>BLACK</span></p>
         <Link className="links">
  
-          <Link to="/home" className="links icon"> 
+          <Link to="/" className="links icon"> 
           <img  src={img}
             alt="icone-home" /> 
           </Link>
-          <Link to="/logout" className="links icon">
+          <Link to="#/logout" className="links icon">
           <img src={img2}
             alt="icone-sair" /> 
           </Link>
         </Link>
-      </header>
+      </div>
     );
   };
   

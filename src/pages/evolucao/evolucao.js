@@ -62,7 +62,7 @@ function Evolucao() {
         </aside>
         </div>
        <h2 className='saldo'>Total: {saldo()}</h2>
-       <button className="btn-ev" onClick={() => window.location="/objetivos"}><img height="30px" width="30px" src={image5}/> Meus Objetivos</button>
+       <button className="btn-ev" onClick={() => window.location="#/objetivos"}><img height="30px" width="30px" src={image5}/> Meus Objetivos</button>
        <button className="btn-ev"><img height="30px" width="30px" src={image4}/>Mais Informações</button>
 
     </div>

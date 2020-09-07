@@ -1,6 +1,6 @@
 # CONTA BLACK - ANALISE DE CREDITO
 
-Projeto proposto pela Conta Black em forma de Hackathon o qual foi realizado nos dias 30 de agosto e 07 de setembro de 2020.
+Projeto proposto pela Conta Black em forma de Hackathon o qual foi realizado nos dias 30 de agosto a 07 de setembro de 2020.
 
 ## Índice
 
@@ -25,13 +25,16 @@ Cliente da classe C, D e E.
 
 ## 4. Solução
 
-Solução 1
+Solução 1:
+
 Criação de uma análise de crédito única.
 
-Solução 2
+Solução 2:
+
 Educação Financeira para os usuários ajudando-os a manterem a sua vida financeira organizada.
 
-Solução 3
+Solução 3:
+
 Disponibilizar crédito de forma segura .
 
 

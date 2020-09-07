@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
 } from "react-router-dom";
@@ -17,7 +17,7 @@ const Routes = () => {
 			<Router>
 				<div>
 					<Switch>
-						<Route exact path="/home" component={homeConta} />
+						<Route exact path="/" component={homeConta} />
 						<Route path="/evolucao" component={Evolucao} />
 						<Route path="/objetivos" component={Objetivos} />
 						<Route path="/logout" component={Logout} />
