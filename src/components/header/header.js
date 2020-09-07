@@ -41,7 +41,7 @@ const Header = () => {
           <img  src={img}
             alt="icone-home" /> 
           </Link>
-          <Link to="/" className="links icon">
+          <Link to="/logout" className="links icon">
           <img src={img2}
             alt="icone-sair" /> 
           </Link>
