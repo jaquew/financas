@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2fcf0213c3511ec128c66e70c85fb67",
+    "revision": "df4bd0eb81862ddd752bc4baddd01301",
     "url": "/financas/index.html"
   },
   {
-    "revision": "6a32f79ef004de3796fc",
-    "url": "/financas/static/css/main.25de4a0b.chunk.css"
+    "revision": "698ff6d2f38172f1145c",
+    "url": "/financas/static/css/main.53dab8d5.chunk.css"
   },
   {
     "revision": "58e135576a7e8c66827d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/financas/static/js/2.8efb4c1b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6a32f79ef004de3796fc",
+    "revision": "698ff6d2f38172f1145c",
     "url": "/financas/static/js/main.f3ab699d.chunk.js"
   },
   {
