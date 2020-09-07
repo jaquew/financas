@@ -1,6 +1,6 @@
 # CONTA BLACK - ANALISE DE CREDITO
 
-Projeto proposto pela Conta Black em forma de Hackathon o qual foi realizado nos dias 30 de agosto e 07 de setembro de 2020.
+Projeto proposto pela Conta Black em forma de Hackathon o qual foi realizado nos dias 30 de agosto a 07 de setembro de 2020.
 
 ## Índice
 
@@ -25,29 +25,25 @@ Cliente da classe C, D e E.
 
 ## 4. Solução
 
-Solução 1
+Solução 1:
+
 Criação de uma análise de crédito única.
 
-Solução 2
+Solução 2:
+
 Educação Financeira para os usuários ajudando-os a manterem a sua vida financeira organizada.
 
-Solução 3
+Solução 3:
+
 Disponibilizar crédito de forma segura .
 
 
 ## 5. Interface
 
-<<<<<<< HEAD
-![home](src/img/home.jpeg)
-![objetivos](src/img/objetivos.jpeg)
-![evolucao](src/img/grafico.jpeg)
-![solicitacao](src/img/solicitacaodecredito.jpeg)
-=======
 ![home](/src/img/home.png)
 ![home](/src/img/objetivos.png)
 ![home](/src/img/grafico.png)
 ![home](/src/img/solicitacaodecredito.png)
->>>>>>> cddec40d26b5730351c5b00676bcef01bbfbb07b
 
 ## 6. Tecnologias
 
@@ -56,9 +52,5 @@ Disponibilizar crédito de forma segura .
 3. CSS3
 4. HTML5
 5. GitHub
-<<<<<<< HEAD
-6. Firebase
-=======
 6. Firebase
 
->>>>>>> cddec40d26b5730351c5b00676bcef01bbfbb07b
