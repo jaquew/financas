@@ -33,6 +33,6 @@ export default [
   {
     label: 'Ánalise de crédito',
     icon: 'money.svg',
-    href: '/evolucao'
+    href: '#/evolucao'
   },
 ]
