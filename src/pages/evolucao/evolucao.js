@@ -1,7 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import firebase from '../../utils/firebaseUtils.js'
 import { PieChart } from 'react-minimal-pie-chart';
-import * as data from './contablack-9-export.json'
+import * as data from './contablack-9-export.json';
+import Header from "../../components/header/header.js";
+import image1 from '../../img/icons/cartao-de-credito.png';
+import image2 from '../../img/icons/aumento.png';
+import image3 from '../../img/icons/dinheiro.png';
+import image4 from '../../img/icons/info.png';
+import image5 from '../../img/icons/checkbox.png';
 
 
 function Evolucao() {
@@ -30,7 +36,8 @@ function Evolucao() {
 
   return(
   <section>
-    <h1>Página Evoluçao</h1>
+    <Header/>
+    <h1>Minha Análise de Crédito</h1>
     <div className="tabMenu">
       <button className={active ? "activeTab" : "tab"} onClick={()=> setActive(active => true)}>Meu BlackScore</button>
       <button className={!active ? "activeTab" : "tab"} onClick={()=>setActive(active => false)}>Resgate</button>
@@ -43,13 +50,13 @@ function Evolucao() {
         lengthAngle={-360} animate
         style={{ height: '150px', width: '50%' }}
         lineWidth={55}
-        label={({ dataEntry }) => dataEntry.value}
+
+        />
+        {/* label={({ dataEntry }) => dataEntry.value}
         labelStyle={{
           ...defaultLabelStyle,
         }}
-        labelPosition={70}
-
-        />
+        labelPosition={70} */}
         <aside className="label">
         {bdMock.map(data => ( 
           <div key={data.color}>
@@ -59,8 +66,8 @@ function Evolucao() {
         </aside>
         </div>
        <h2>Total: {saldo()}</h2>
-       <button>Meus objetivos</button>
-       <button>Mais informações sobre a análise de crédito</button>
+       <button className="btn-ev" onClick={() => window.location="/objetivos"}><img height="30px" width="30px" src={image5}/> Meus Objetivos</button>
+       <button className="btn-ev"><img height="30px" width="30px" src={image4}/>Mais Informações</button>
 
     </div>
     :
@@ -72,9 +79,9 @@ function Evolucao() {
       :
       <p>Você ainda não tem crédito pré-aprovado</p>
       }
-      <button className='btn-resgate'>Solicitar Crédito em Conta</button>
-      <button className='btn-resgate'>Solicitar Cartão de Crédito </button>
-      <button className='btn-resgate'> Solicitar Aumento de Limite</button>
+      <button className='btn-resgate'><img height="30px" width="30px" src={image3}/>Solicitar Crédito em Conta</button>
+      <button className='btn-resgate'><img height="30px" width="30px" src={image1}/>Solicitar Cartão de Crédito </button>
+      <button className='btn-resgate'><img height="30px" width="30px" src={image2}/>Solicitar Aumento de Limite</button>
     </div>
     }
   

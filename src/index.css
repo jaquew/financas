@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#f0f0f0;
 
 }
 
@@ -29,9 +30,10 @@ code {
   font-weight: bold;
 }
 .container {
-  height: 70vh;
+  height: 65vh;
   display: flex;
   flex-flow: column;
+  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -52,6 +54,7 @@ code {
 }
 .regate{
   display: flex;
+  height: 65vh;
   flex-flow: column;
   align-items: center;
 }
@@ -60,8 +63,16 @@ code {
   font-weight: bold;
 }
 
-.btn-resgate {
+.btn-resgate, .btn-ev  {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   height: 70px;
+  width: 80%;
   margin: 10px 0;
+  border-color: transparent;
+  border-radius: 15px;
+  background-color: #fff;
 
 }
+

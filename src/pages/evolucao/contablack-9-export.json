@@ -1,5 +1,5 @@
 [ {
-  "bill" : 50,
+  "bill" : 300,
   "creditCard" : 45,
   "deposit" : 80,
   "tranfer" : 100,
@@ -27,7 +27,7 @@
   "creditCard" : 125,
   "deposit" : 200,
   "tranfer" : 100,
-  "loan" : 50,
+  "loan" : 100,
   "adress" : "Avenida Paulista, 1234",
   "business" : "Alimentação",
   "document" : 526847450001,
