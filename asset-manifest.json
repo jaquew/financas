@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/financas/static/css/main.9a1a8391.chunk.css",
-    "main.js": "/financas/static/js/main.f6816931.chunk.js",
-    "main.js.map": "/financas/static/js/main.f6816931.chunk.js.map",
+    "main.js": "/financas/static/js/main.7dc78ade.chunk.js",
+    "main.js.map": "/financas/static/js/main.7dc78ade.chunk.js.map",
     "runtime-main.js": "/financas/static/js/runtime-main.38256473.js",
     "runtime-main.js.map": "/financas/static/js/runtime-main.38256473.js.map",
     "static/js/2.fb0a2ae1.chunk.js": "/financas/static/js/2.fb0a2ae1.chunk.js",
     "static/js/2.fb0a2ae1.chunk.js.map": "/financas/static/js/2.fb0a2ae1.chunk.js.map",
     "index.html": "/financas/index.html",
-    "precache-manifest.c614961ab6a334962ac5872920e6c241.js": "/financas/precache-manifest.c614961ab6a334962ac5872920e6c241.js",
+    "precache-manifest.81512714abb5ce8d61da3b4b544308be.js": "/financas/precache-manifest.81512714abb5ce8d61da3b4b544308be.js",
     "service-worker.js": "/financas/service-worker.js",
     "static/css/main.9a1a8391.chunk.css.map": "/financas/static/css/main.9a1a8391.chunk.css.map",
     "static/js/2.fb0a2ae1.chunk.js.LICENSE.txt": "/financas/static/js/2.fb0a2ae1.chunk.js.LICENSE.txt",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.38256473.js",
     "static/js/2.fb0a2ae1.chunk.js",
     "static/css/main.9a1a8391.chunk.css",
-    "static/js/main.f6816931.chunk.js"
+    "static/js/main.7dc78ade.chunk.js"
   ]
 }
