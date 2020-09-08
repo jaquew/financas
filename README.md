@@ -40,10 +40,10 @@ Disponibilizar crédito de forma segura .
 
 ## 5. Interface
 
-![home](src/img/home.jpeg) = 414x736 
-![objetivos](src/img/objetivos.jpeg) = 414x736 
-![evolucao](src/img/grafico.jpeg) = 414x736 
-![solicitacao](src/img/solicitacaodecredito.jpeg) = 414x736 
+![home](src/img/home.jpeg) 
+![objetivos](src/img/objetivos.jpeg) 
+![evolucao](src/img/grafico.jpeg)
+![solicitacao](src/img/solicitacaodecredito.jpeg) 
 
 ## 6. Tecnologias
 
